@@ -9,9 +9,6 @@ pipeline {
 
     stages {
         stage('Build') {
-            when {
-                branch 'master'  
-            }
             steps {
                 echo 'Building...'
                     script {
@@ -27,6 +24,9 @@ pipeline {
             }
         }
         stage('Pack') {
+            when {
+                branch 'master'  
+            }
             steps {
                 echo 'Packing...'
             }
