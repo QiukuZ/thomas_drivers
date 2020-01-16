@@ -2,7 +2,7 @@
 
 Continuous integration
 ----------------------
-[![Build Status](http://jenkins-zjurolab.qicp.vip/jenkins/buildStatus/icon?job=thomas_drivers)](http://jenkins-zjurolab.qicp.vip/jenkins/buildStatus/icon?job=thomas_drivers)
+[![Build Status](http://jenkins-zjurolab.qicp.vip/buildStatus/icon?job=thomas_drivers)](http://jenkins-zjurolab.qicp.vip/buildStatus/icon?job=thomas_drivers)
 
 Usage
 ----------------------
