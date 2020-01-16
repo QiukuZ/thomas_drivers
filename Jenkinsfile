@@ -36,7 +36,9 @@ pipeline {
         stage('Finallize') {
             steps {
                 echo 'Finalizing...'
-                build_badge.setStatus('passing')
+                script {
+                    build_badge.setStatus('passing')
+                }
             }
         }
     }
